@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initRtmp(){
         rtmpPush = new RtmpPush();
-//        rtmpPush.initVideo("rtmp://192.168.1.125/live",480,640,750_000);
+        rtmpPush.initVideo("rtmp://192.168.1.125/live",480,640,750_000);
     }
 
     @Override
